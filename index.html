@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Secrétariat & Co</title>
-  <meta name="description" content="Assistance administrative pour particuliers et professionnels. Plus de 10 ans d’expérience pour simplifier vos démarches : courriers, impôts, RH, pré-comptabilité, devis, factures, CV, lettres de motivation. Accompagnement fiable, humain et sur mesure.">
+  <meta name="description"
+    content="Assistance administrative pour particuliers et professionnels. Plus de 10 ans d’expérience pour simplifier vos démarches : courriers, impôts, RH, pré-comptabilité, devis, factures, CV, lettres de motivation. Accompagnement fiable, humain et sur mesure.">
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96" />
@@ -31,6 +32,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/webgencia-style.css" rel="stylesheet">
 
 </head>
 
@@ -39,45 +41,21 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div
       class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">iLanding</h1>
+        <img src="assets/img/logo.png" alt="">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#features">Pour qui ?</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="#pricing">Forfaits</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
+      <a class="btn-getstarted" href="tel:0688346778">06.88.34.67.78</a>
     </div>
   </header>
 
@@ -85,108 +63,18 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-              <div class="company-badge mb-4">
-                <i class="bi bi-gear-fill me-2"></i>
-                Working for your success
-              </div>
-
-              <h1 class="mb-4">
-                Maecenas Vitae <br>
-                Consectetur Led <br>
-                <span class="accent-text">Vestibulum Ante</span>
-              </h1>
-
-              <p class="mb-4 mb-md-5">
-                Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-                Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-              </p>
-
-              <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
-                  <i class="bi bi-play-circle me-1"></i>
-                  Play Video
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
-
-              <div class="customers-badge">
-                <div class="customer-avatars">
-                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
-                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
-                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
-                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
-                  <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
-                  <span class="avatar more">12+</span>
-                </div>
-                <p class="mb-0 mt-2">12,000+ lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-              </div>
-            </div>
-          </div>
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="assets/img/hero.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+      <div class="hero-overlay d-flex align-items-center justify-content-center">
+        <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/logo-removed.png" alt="Logo" class="hero-logo">
         </div>
-
-        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-trophy"></i>
-              </div>
-              <div class="stat-content">
-                <h4>3x Won Awards</h4>
-                <p class="mb-0">Vestibulum ante ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <div class="stat-content">
-                <h4>6.5k Faucibus</h4>
-                <p class="mb-0">Nullam quis ante</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-graph-up"></i>
-              </div>
-              <div class="stat-content">
-                <h4>80k Mauris</h4>
-                <p class="mb-0">Etiam sit amet orci</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-award"></i>
-              </div>
-              <div class="stat-content">
-                <h4>6x Phasellus</h4>
-                <p class="mb-0">Vestibulum ante ipsum</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+    </section>
 
-    </section><!-- /Hero Section -->
-
+    <!-- /Hero Section -->
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -195,25 +83,30 @@
         <div class="row gy-4 align-items-center justify-content-between">
 
           <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-            <span class="about-meta">MORE ABOUT US</span>
-            <h2 class="about-title">Voluptas enim suscipit temporibus</h2>
-            <p class="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.</p>
+            <span class="about-meta">QUI SOMMES-NOUS ?</span>
+            <h2 class="about-title">Votre alliée pour une gestion administrative simplifiée</h2>
+            <p class="about-description">
+              Assistante administrative depuis plus de 10 ans, j’ai acquis une solide expérience dans
+              les administrations françaises, le secteur social, ainsi qu’auprès d’entreprises privées et du bâtiment.
+              Cette diversité m’a permis de développer une grande polyvalence et une parfaite maîtrise des démarches
+              administratives, tant pour les professionnels que pour les particuliers.
+              Aujourd’hui, avec <strong>Secrétariat & Co</strong>, je mets ces compétences au service de mes clients,
+              en leur offrant un accompagnement fiable, rigoureux et sur mesure.
+            </p>
 
             <div class="row feature-list-wrapper">
               <div class="col-md-6">
                 <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Consectetur adipiscing elit</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Plus de 10 ans d’expérience</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Services pour particuliers & professionnels</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Accompagnement sur mesure</li>
                 </ul>
               </div>
               <div class="col-md-6">
                 <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Incididunt ut labore et</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Dolore magna aliqua</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ut enim ad minim veniam</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Gain de temps et d’argent</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Réduction du stress administratif</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Suivi humain et réactif</li>
                 </ul>
               </div>
             </div>
@@ -222,21 +115,21 @@
               <div class="row gy-4">
                 <div class="col-lg-5">
                   <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
+                    <img src="assets/img/avatar-1.webp" alt="Julie Froment" class="profile-image">
                     <div>
-                      <h4 class="profile-name">Mario Smith</h4>
-                      <p class="profile-position">CEO &amp; Founder</p>
+                      <h4 class="profile-name">Julie Froment</h4>
+                      <p class="profile-position">Secrétaire indépendante</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-7">
-                  <div class="contact-info d-flex align-items-center gap-2">
+                  <a class="contact-info d-flex align-items-center gap-2" href="tel:0688346778">
                     <i class="bi bi-telephone-fill"></i>
                     <div>
-                      <p class="contact-label">Call us anytime</p>
-                      <p class="contact-number">+123 456-789</p>
+                      <p class="contact-label">Appelez-moi à tout moment</p>
+                      <p class="contact-number">06.88.34.67.78</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -245,12 +138,14 @@
           <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
             <div class="image-wrapper">
               <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
-                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+                <img src="assets/img/about-5.webp" alt="Secrétariat & Co en action"
+                  class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Assistance administrative"
+                  class="img-fluid small-image rounded-4">
               </div>
               <div class="experience-badge floating">
-                <h3>15+ <span>Years</span></h3>
-                <p>Of experience in business service</p>
+                <h3>10<span>ANS</span></h3>
+                <p>d'expérience en gestion administrative</p>
               </div>
             </div>
           </div>
@@ -265,8 +160,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>À qui s'adresse notre offre ?</h2>
+        <p>Chez <strong>Secrétariat & Co</strong>, nous accompagnons à la fois les professionnels et les particuliers,
+          car chacun peut se retrouver dépassé par les démarches administratives.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -277,19 +173,13 @@
 
             <li class="nav-item">
               <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                <h4>Modisit</h4>
+                <h4>Particuliers</h4>
               </a>
             </li><!-- End tab nav item -->
 
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                <h4>Praesenti</h4>
-              </a><!-- End tab nav item -->
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                <h4>Explica</h4>
+                <h4>Professionnels</h4>
               </a>
             </li><!-- End tab nav item -->
 
@@ -299,78 +189,53 @@
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
 
+          <!-- Particuliers -->
           <div class="tab-pane fade active show" id="features-tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatem dignissimos provident</h3>
+                <h3>Un accompagnement pour simplifier votre quotidien</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  Vous repoussez certaines démarches depuis des semaines ?
+                  Secrétariat & Co s’occupe de vos papiers pour que vous puissiez vous libérer l’esprit.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                      velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu
-                      fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> Remplissage de formulaires & constitution de dossiers (CAF,
+                    retraite, logement, santé…)</li>
+                  <li><i class="bi bi-check2-all"></i> Aide administrative : courriers, impôts, régularisations</li>
+                  <li><i class="bi bi-check2-all"></i> Lecture et explication de courriers officiels</li>
+                  <li><i class="bi bi-check2-all"></i> Création de CV & rédaction de lettres de motivation</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
+                <img src="assets/img/features-illustration-1.webp" alt="Assistance administrative particuliers"
+                  class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
 
+          <!-- Professionnels -->
           <div class="tab-pane fade" id="features-tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Neque exercitationem debitis</h3>
+                <h3>Gagnez du temps, concentrez-vous sur votre métier</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  Que vous soyez artisan, commerçant, indépendant ou dirigeant, nous prenons en charge la gestion
+                  administrative pour vous permettre de vous consacrer à l’essentiel : votre activité.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                      velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui
-                      a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu
-                      fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> Gestion administrative et commerciale (devis, factures, relances,
+                    courriers…)</li>
+                  <li><i class="bi bi-check2-all"></i> Pré-comptabilité (rapprochements bancaires, préparation des
+                    éléments pour le comptable)</li>
+                  <li><i class="bi bi-check2-all"></i> Gestion RH : suivi des absences, préparation des éléments de paie
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> Mise en place d’outils organisationnels pour optimiser votre
+                    gestion</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-2.webp" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatibus commodi accusamu</h3>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                      velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui
-                      a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+                <img src="assets/img/features-illustration-2.webp" alt="Assistance administrative professionnels"
+                  class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -390,145 +255,42 @@
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="feature-box orange">
-              <i class="bi bi-award"></i>
-              <h4>Corporis voluptates</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <i class="bi bi-clock-history"></i>
+              <h4>Gain de temps</h4>
+              <p>Confiez-nous vos démarches administratives et concentrez-vous sur l’essentiel.</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div><!-- End Feature Box-->
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="feature-box blue">
-              <i class="bi bi-patch-check"></i>
-              <h4>Explicabo consectetur</h4>
-              <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+              <i class="bi bi-people"></i>
+              <h4>Accompagnement humain</h4>
+              <p>Un service personnalisé, à l’écoute, pour particuliers et professionnels.</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div><!-- End Feature Box-->
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="feature-box green">
-              <i class="bi bi-sunrise"></i>
-              <h4>Ullamco laboris</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <i class="bi bi-tools"></i>
+              <h4>Polyvalence</h4>
+              <p>10 ans d’expérience dans les administrations, le social, et le privé.</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div><!-- End Feature Box-->
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="feature-box red">
               <i class="bi bi-shield-check"></i>
-              <h4>Labore consequatur</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <h4>Fiabilité & Rigueur</h4>
+              <p>Des démarches sécurisées et conformes, avec un suivi réactif.</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div><!-- End Feature Box-->
 
         </div>
 
       </div>
+
 
     </section><!-- /Features Cards Section -->
-
-    <!-- Features 2 Section -->
-    <section id="features-2" class="features-2 section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-
-          <div class="col-lg-4">
-
-            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Use On Any Device</h3>
-                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui
-                    quis mi consectetuer lacinia.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-display"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Feather Icons</h3>
-                  <p>Phasellus ullamcorper ipsum rutrum nunc nunc nonummy metus vestibulum volutpat sapien arcu sed
-                    augue aliquam erat volutpat.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-feather"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Retina Ready</h3>
-                  <p>Aenean tellus metus bibendum sed posuere ac mattis non nunc vestibulum fringilla purus sit amet
-                    fermentum aenean commodo.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-eye"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-          </div>
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="phone-mockup text-center">
-              <img src="assets/img/phone-app-screen.webp" alt="Phone Mockup" class="img-fluid">
-            </div>
-          </div><!-- End Phone Mockup -->
-
-          <div class="col-lg-4">
-
-            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-code-square"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>W3c Valid Code</h3>
-                  <p>Donec vitae sapien ut libero venenatis faucibus nullam quis ante etiam sit amet orci eget eros
-                    faucibus tincidunt.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-phone"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>Fully Responsive</h3>
-                  <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem
-                    neque sed ipsum.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-browser-chrome"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>Browser Compatibility</h3>
-                  <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum semper
-                    nisi aenean vulputate.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Features 2 Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
@@ -537,62 +299,64 @@
 
         <div class="row content justify-content-center align-items-center position-relative">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="display-4 mb-4">Maecenas tempus tellus eget condimentum</h2>
-            <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-              Donec velit neque, auctor sit amet aliquam vel</p>
-            <a href="#" class="btn btn-cta">Call To Action</a>
-          </div>
-
-          <!-- Abstract Background Elements -->
-          <div class="shape shape-1">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z"
-                transform="translate(100 100)"></path>
-            </svg>
-          </div>
-
-          <div class="shape shape-2">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z"
-                transform="translate(100 100)"></path>
-            </svg>
-          </div>
-
-          <!-- Dot Pattern Groups -->
-          <div class="dots dots-1">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-              </pattern>
-              <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
-            </svg>
-          </div>
-
-          <div class="dots dots-2">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-              </pattern>
-              <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
-            </svg>
-          </div>
-
-          <div class="shape shape-3">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z"
-                transform="translate(100 100)"></path>
-            </svg>
+            <h2 class="display-4 mb-4">Besoin d’un accompagnement sur-mesure ?</h2>
+            <p class="mb-4">Contactez-moi pour discuter de vos besoins et découvrir comment je peux vous aider à
+              atteindre vos objectifs.</p>
+            <a href="#contact" class="btn btn-cta">Prendre rendez-vous</a>
           </div>
         </div>
+
+
+        <!-- Abstract Background Elements -->
+        <div class="shape shape-1">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z"
+              transform="translate(100 100)"></path>
+          </svg>
+        </div>
+
+        <div class="shape shape-2">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z"
+              transform="translate(100 100)"></path>
+          </svg>
+        </div>
+
+        <!-- Dot Pattern Groups -->
+        <div class="dots dots-1">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+            </pattern>
+            <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
+          </svg>
+        </div>
+
+        <div class="dots dots-2">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+            </pattern>
+            <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
+          </svg>
+        </div>
+
+        <div class="shape shape-3">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z"
+              transform="translate(100 100)"></path>
+          </svg>
+        </div>
+      </div>
 
       </div>
 
     </section><!-- /Call To Action Section -->
 
-    <!-- Clients Section -->
+    <!-- Clients Section 
     <section id="clients" class="clients section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -646,15 +410,15 @@
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section> Clients Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Témoignages</h2>
+        <p>Découvrez ce que disent ceux qui m’ont déjà fait confiance.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -663,17 +427,17 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Photo client">
+              <h3>Philippe Perez</h3>
+              <h4>Responsable Marketing</h4>
               <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                  Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <span>Une expérience exceptionnelle ! Grâce à son professionnalisme et à son écoute, notre projet a pu
+                  avancer rapidement et efficacement.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -681,17 +445,16 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Photo client">
+              <h3>Jasmine Lee</h3>
+              <h4>Entrepreneur</h4>
               <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
-                  malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                <span>Une collaboration fluide et des résultats au-delà de mes attentes. Je recommande vivement !</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -699,17 +462,17 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Photo client">
+              <h3>Sophie Leroy</h3>
+              <h4>Consultante</h4>
               <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                <span>J’ai particulièrement apprécié la réactivité et la qualité du suivi. Une vraie valeur ajoutée pour
+                  mon activité.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -717,17 +480,17 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Photo client">
+              <h3>Julien Blot</h3>
+              <h4>Freelance Développeur</h4>
               <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                <span>Des conseils clairs, une approche structurée et des résultats concrets. Je n’hésiterai pas à
+                  refaire appel à ses services.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -740,7 +503,7 @@
     </section><!-- /Testimonials Section -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
+    <section id="stats" class="stats section light-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -748,33 +511,33 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p>Clients</p>
+              <p>Années d’expérience</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="487" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p>Projects</p>
+              <p>Dossiers traités</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="184" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <p>Clients accompagnés</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="81" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p>Workers</p>
+              <p>Entreprises & particuliers suivis</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -789,69 +552,133 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Nos Services</h2>
+        <p>Secrétariat & Co simplifie vos démarches administratives et vous accompagne avec sérieux, rigueur et
+          humanité, que vous soyez particulier ou professionnel.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-4">
 
+          <!-- Service Particuliers -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-card d-flex">
               <div class="icon flex-shrink-0">
-                <i class="bi bi-activity"></i>
+                <i class="bi bi-person-lines-fill"></i>
               </div>
               <div>
-                <h3>Nesciunt Mete</h3>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
-                  perferendis tempore et consequatur.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <h3>Accompagnement des Particuliers</h3>
+                <p>Nous prenons en charge vos démarches administratives : formulaires, impôts, CAF, retraite, santé,
+                  dossiers de logement, régularisations. Nous vous aidons également pour la création de CV et lettres de
+                  motivation.</p>
+                <a href="#" class="read-more" data-bs-toggle="modal" data-bs-target="#modalParticuliers">En savoir plus
+                  <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
 
+          <!-- Modal Particuliers -->
+          <div class="modal fade" id="modalParticuliers" tabindex="-1" aria-labelledby="modalParticuliersLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalParticuliersLabel">Accompagnement des Particuliers</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="assets/img/services/services-particuliers.png" alt="Accompagnement Particuliers"
+                    class="img-fluid rounded shadow">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
+
+          <!-- Service Professionnels -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card d-flex">
               <div class="icon flex-shrink-0">
-                <i class="bi bi-diagram-3"></i>
+                <i class="bi bi-briefcase-fill"></i>
               </div>
               <div>
-                <h3>Eosle Commodi</h3>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
-                  nesciunt dolorem.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <h3>Accompagnement des Professionnels</h3>
+                <p>Assistance administrative, gestion commerciale (devis, factures, relances), pré-comptabilité
+                  (rapprochements bancaires, transmission au comptable), et aide RH (préparation des éléments de paie,
+                  suivi des congés).</p>
+                <a href="#" class="read-more" data-bs-toggle="modal" data-bs-target="#modalPros">En savoir plus <i
+                    class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
 
+          <!-- Modal Pros -->
+          <div class="modal fade" id="modalPros" tabindex="-1" aria-labelledby="modalProsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProsLabel">Accompagnement des Professionnels</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="assets/img/services/services-professionnels.png" alt="Accompagnement Professionnels"
+                    class="img-fluid rounded shadow">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
+
+          <!-- Service Forfaits sur mesure -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card d-flex">
               <div class="icon flex-shrink-0">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-calendar-check-fill"></i>
               </div>
               <div>
-                <h3>Ledo Markt</h3>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
-                  eos earum corrupti.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <h3>Forfaits Mensuels & Sur Mesure</h3>
+                <p>Des formules adaptées à vos besoins : gestion quotidienne des mails et courriers, classement, suivi
+                  clients/fournisseurs, recrutement, ou organisation complète de votre secrétariat.</p>
+                <a href="#pricing" class="read-more">Voir nos forfaits <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
 
+          <!-- Service Assistance Juridique & Fiscale -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card d-flex">
               <div class="icon flex-shrink-0">
-                <i class="bi bi-clipboard-data"></i>
+                <i class="bi bi-journal-text"></i>
               </div>
               <div>
-                <h3>Asperiores Commodit</h3>
-                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
-                  adipisci neque.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <h3>Assistance Juridique & Fiscale</h3>
+                <p>Aide aux déclarations d’impôts, demandes d’échéanciers ou de remises gracieuses, courriers liés aux
+                  litiges du quotidien, et accompagnement dans les démarches administratives complexes.</p>
+                <a href="#" class="read-more" data-bs-toggle="modal" data-bs-target="#modalJuridique">Découvrir <i
+                    class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
+
+          <!-- Modal Assistance Juridique & Fiscale -->
+          <div class="modal fade" id="modalJuridique" tabindex="-1" aria-labelledby="modalJuridiqueLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalJuridiqueLabel">Assistance Juridique & Fiscale</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="assets/img/services/services-assistance.png" alt="Assistance Juridique & Fiscale"
+                    class="img-fluid rounded shadow">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
+
 
         </div>
 
@@ -864,55 +691,56 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Nos forfaits</h2>
+        <p>Des formules adaptées à vos besoins, pour une gestion administrative simplifiée et efficace.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-4 justify-content-center">
 
-          <!-- Basic Plan -->
+          <!-- Forfait ESSENTIEL -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-card">
-              <h3>Basic Plan</h3>
-              <div class="price">
+              <h3>Forfait ESSENTIEL</h3>
+              <!--<div class="price">
                 <span class="currency">$</span>
                 <span class="amount">9.9</span>
                 <span class="period">/ month</span>
-              </div>
-              <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium totam.</p>
-
-              <h4>Featured Included:</h4>
+              </div> 
+              <h4>Featured Included:</h4>-->
               <ul class="features-list">
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Duis aute irure dolor
+                  Gestion des mails et des courriers
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Excepteur sint occaecat
+                  Gestion des factures
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Nemo enim ipsam voluptatem
+                  Saisie des devis
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Classement
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-primary">
-                Buy Now
+              <a href="#contact" class="btn btn-primary">
+                Nous contacter
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
 
-          <!-- Standard Plan -->
+          <!-- Forfait PRO -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-card popular">
-              <div class="popular-badge">Most Popular</div>
-              <h3>Standard Plan</h3>
-              <div class="price">
+              <div class="popular-badge">Le plus populaire</div>
+              <h3>Forfait PRO</h3>
+              <!-- <div class="price">
                 <span class="currency">$</span>
                 <span class="amount">19.9</span>
                 <span class="period">/ month</span>
@@ -920,38 +748,38 @@
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                 praesentium voluptatum.</p>
 
-              <h4>Featured Included:</h4>
+              <h4>Featured Included:</h4>-->
               <ul class="features-list">
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Lorem ipsum dolor sit amet
+                  Forfait ESSENTIEL
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Consectetur adipiscing elit
+                  Tableau de suivi
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Sed do eiusmod tempor
+                  Pré-comptabilité
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Ut labore et dolore magna
+                  Transmission des variables de paie
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-light">
-                Buy Now
+              <a href="#contact" class="btn btn-light">
+                Contactez-nous
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
 
-          <!-- Premium Plan -->
+          <!-- Forfait PREMIUM -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing-card">
-              <h3>Premium Plan</h3>
-              <div class="price">
+              <h3>Forfait PREMIUM</h3>
+              <!-- <div class="price">
                 <span class="currency">$</span>
                 <span class="amount">39.9</span>
                 <span class="period">/ month</span>
@@ -959,32 +787,141 @@
               <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
                 molestiae.</p>
 
-              <h4>Featured Included:</h4>
+              <h4>Featured Included:</h4> -->
               <ul class="features-list">
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Temporibus autem quibusdam
+                  Forfait PRO
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Saepe eveniet ut et voluptates
+                  Gestion du suivi
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Nam libero tempore soluta
+                  Relance des clients
                 </li>
                 <li>
                   <i class="bi bi-check-circle-fill"></i>
-                  Cumque nihil impedit quo
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Maxime placeat facere possimus
+                  Relance des fournisseurs (demande de chiffrages, etc)
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-primary">
-                Buy Now
+              <a href="#contact" class="btn btn-primary">
+                Contactez-nous
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Forfait PRÉ COMPTA -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <h3>Forfait PRÉ COMPTA</h3>
+              <!-- <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">39.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae.</p>
+
+              <h4>Featured Included:</h4> -->
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Récupération des factures d’achat
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Récupération des factures de vente
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Rapprochement bancaire
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Transmission des éléments au comptable
+                </li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary">
+                Contactez-nous
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Forfait ORGANISATION -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <h3>Forfait ORGANISATION</h3>
+              <!-- <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">39.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae.</p>
+
+              <h4>Featured Included:</h4> -->
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Création d’un dossier numérique
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Classement papier
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Audit et mise en place d’outils organisationnels pour la gestion administrative de votre société
+                </li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary">
+                Contactez-nous
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Forfait NOUVELLE SOCIÉTÉ -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <h3>Forfait NOUVELLE SOCIÉTÉ</h3>
+              <!-- <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">39.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae.</p>
+
+              <h4>Featured Included:</h4> -->
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Création d’une trame
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Création d’un dossier numérique
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Création d’un classement papier
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Mise en place d’outils organisationnels pour la gestion administrative de votre société
+                </li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary">
+                Contactez-nous
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -1003,9 +940,9 @@
         <div class="row">
 
           <div class="col-lg-5" data-aos="fade-up">
-            <h2 class="faq-title">Have a question? Check out the FAQ</h2>
-            <p class="faq-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
-              adipiscing sem neque sed ipsum.</p>
+            <h2 class="faq-title">Pourquoi nous choisir ? Consultez la FAQ</h2>
+            <p class="faq-description">Parce que chez Secrétariat & Co nous croyons qu’un bon accompagnement c’est plus
+              qu’un simple service.</p>
             <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
               <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -1020,60 +957,55 @@
             <div class="faq-container">
 
               <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>Quels sont les avantages de vos services&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Vous bénéficiez d’un gain de temps et d’argent, d’une réduction du stress, et de la certitude
+                    d’être bien accompagné.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>Pourquoi faire appel à Secrétariat & Co&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Avec plus de 10 ans d’expérience dans l’administration et le secteur privé, nous connaissons les
+                    vraies difficultés rencontrées par les professionnels comme par les particuliers.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>Comment se déroule l’accompagnement&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis</p>
+                  <p>Nous vous offrons un accompagnement personnalisé, humain et réactif, afin que vous puissiez vous
+                    concentrer sur l’essentiel.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>Est-ce que vos services sont adaptés aux particuliers&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Oui, nous accompagnons les particuliers dans leurs démarches administratives : impôts, CAF,
+                    retraite, santé, logement et bien plus encore.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>Proposez-vous des solutions pour les professionnels&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
-                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
-                    Purus gravida quis blandit turpis cursus in</p>
+                  <p>Absolument ! Nous aidons les professionnels dans la gestion administrative, la pré-comptabilité, la
+                    gestion commerciale et les ressources humaines.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>Puis-je bénéficier d’un service sur mesure&nbsp;?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
-                    Distinctio ipsam dolore et.</p>
+                  <p>Oui, nous proposons des forfaits mensuels et des services totalement adaptés à vos besoins, qu’il
+                    s’agisse de gestion quotidienne ou de missions ponctuelles.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -1085,32 +1017,13 @@
       </div>
     </section><!-- /Faq Section -->
 
-    <!-- Call To Action 2 Section -->
-    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
-              <a class="cta-btn" href="#">Call To Action</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action 2 Section -->
-
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Une question ou besoin d’accompagnement&nbsp;? Notre équipe est à votre écoute !</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1118,8 +1031,7 @@
         <div class="row g-4 g-lg-5">
           <div class="col-lg-5">
             <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-              <h3>Contact Info</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+              <h3>Nos Coordonnées</h3>
               </p>
 
               <div class="info-item" data-aos="fade-up" data-aos-delay="300">
@@ -1127,9 +1039,10 @@
                   <i class="bi bi-geo-alt"></i>
                 </div>
                 <div class="content">
-                  <h4>Our Location</h4>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <h4>Notre secteur d'intervention</h4>
+                  <p>Beauvais</p>
+                  <p>Oise</p>
+                  <p>Île-de-France</p>
                 </div>
               </div>
 
@@ -1138,9 +1051,8 @@
                   <i class="bi bi-telephone"></i>
                 </div>
                 <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <h4>Téléphone</h4>
+                  <p><a href="tel:+33688346778">06.88.34.67.78</a></p>
                 </div>
               </div>
 
@@ -1149,46 +1061,46 @@
                   <i class="bi bi-envelope"></i>
                 </div>
                 <div class="content">
-                  <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <h4>Email</h4>
+                  <p><a href="mailto:contact@secretariat-co.fr">contact@secretariat-co.fr</a></p>
                 </div>
               </div>
+
             </div>
           </div>
 
           <div class="col-lg-7">
             <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-              <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
-              </p>
+              <h3>Contactez-nous</h3>
 
               <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
                 data-aos-delay="200">
                 <div class="row gy-4">
 
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="name"
+                      placeholder="Votre nom ou celui de votre entreprise" required>
+                  </div>
+
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    <input type="tel" name="phone" class="form-control" placeholder="Votre téléphone" required>
                   </div>
 
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Votre adresse email" required>
                   </div>
 
                   <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    <textarea class="form-control" name="message" rows="6" placeholder="Votre message"
+                      required></textarea>
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
+                    <div class="loading">Chargement...</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    <div class="sent-message">Votre message a été envoyé. Merci !</div>
 
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" class="btn">Envoyer le message</button>
                   </div>
 
                 </div>
@@ -1205,87 +1117,49 @@
 
   </main>
 
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer bg-dark text-light py-3">
+    <div class="container">
+      <div class="row align-items-center text-center text-md-start">
 
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">iLanding</span>
+        <!-- Colonne gauche : Mentions légales -->
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="mentions-legales.html" class="text-decoration-none text-light">
+            Mentions légales
           </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p class="small mb-0">
+            &copy; 2025 <strong>Secrétariat & Co</strong>
+          </p>
+        </div>
+
+        <!-- Colonne centre : Réalisation -->
+        <div class="col-md-4 text-center mb-2 mb-md-0">
+          <p class="small mb-0">
+            Une réalisation
+            <a href="https://webgencia.fr" target="_blank" rel="noopener noreferrer" class="footer-link">
+              Webgencia
+            </a>
+          </p>
+        </div>
+
+
+        <!-- Colonne droite : Réseaux sociaux -->
+        <div class="col-md-4 text-md-end">
+          <div class="social-links d-flex justify-content-center justify-content-md-end">
+            <a href="https://www.instagram.com/secretariat_co" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram" class="ms-3 text-light fs-5">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.snapchat.com/add/secretariat_co" target="_blank" rel="noopener noreferrer"
+              aria-label="Snapchat" class="ms-3 text-light fs-5">
+              <i class="bi bi-snapchat"></i>
+            </a>
           </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
         </div>
 
       </div>
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
