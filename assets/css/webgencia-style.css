@@ -39,6 +39,10 @@
   background-color: #e3dbd1;
 }
 
+.margin-bottom-link-contact {
+  margin-bottom: 2rem !important;
+}
+
 .footer-link {
   color: white !important;
   font-weight: 600;
